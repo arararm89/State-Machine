@@ -173,8 +173,6 @@ function be:AddSpeed(data)
 	
 	
 	if player then
-		print'fired'
-		print(final)
 		engineRemote:FireClient(player, 1, final)
 	else
 		hum.WalkSpeed = final
